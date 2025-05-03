@@ -1,0 +1,41 @@
+
+# Build outputs
+/build
+
+/cmd/test
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Binary folder
+bin/
+
+# Dependency directories
+vendor/
+Godeps/
+node_modules/
+
+# Coverage files
+*.cover
+*.coverprofile
+coverage.txt
+coverage.html
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+.DS_Store
+Thumbs.db
